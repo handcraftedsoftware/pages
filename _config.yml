@@ -1,1 +1,16 @@
-theme: jekyll-theme-minimal
+title: "handcrafted.software"
+description: ""
+baseurl: ""
+url: "https://handcrafted.software"
+copyright: "handcrafted.software"
+markdown: kramdown
+theme: minima
+footer_pages:
+  - "contacts.md"
+  - "legal/privacy.md"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  {{ content }}
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {% if post.image != empty %}
+              <span class="post-image" style="background-image: url('{{ post.image }}')">
+              </span>
+            {% endif %}
+              <span class="post-title">
+                {{ post.title | escape }}
+              </span>
+          </a>
+        </h2>
+        <p class="post-meta">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {{ post.date | date: date_format }}
+        </p>
+        <div class="post-content">{{ post.excerpt }}
+          <br>
+          <a href="{{ post.url | relative_url }}">Read more</a>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,54 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.post-title {
+    font-family: Amaranth;
+    font-size: 30px;
+    line-height: 1;
+    color: #4A4A4A;
+}
+
+span.post-title {
+    font-family: Amaranth;
+    font-size: 30px;
+    line-height: 1;
+    color: #4A4A4A;
+}
+
+.post-content h1 {
+    font-family: Amaranth;
+    font-size: 24px;
+}
+
+.post-content {
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: baseline;
+}
+
+.post-meta {
+    font-family: Amaranth;
+    font-size: 14px;
+    color: #828282;
+    margin-top: -10px;
+    font-size: 300;
+}
+
+.post-link {
+    display: block;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+a .post-link {
+    color: #111;
+}

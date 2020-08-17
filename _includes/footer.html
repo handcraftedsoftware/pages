@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        © {{ site.time | date: "%Y" }} {{ site.copyright }}
+      </div>
+      <div class="footer-col footer-col-1">
+<!--         <p>{{- site.description | escape -}}</p>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+        {%- for path in site.footer_pages -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+
+  </div>
+
+</footer>
