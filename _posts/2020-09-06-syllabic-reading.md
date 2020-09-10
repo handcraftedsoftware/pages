@@ -15,7 +15,7 @@ permalink: /apps/syllabic-reading
 Использовать данное приложение лучше, когда ребенок уже освоил отдельные слоги.
 Для хорошего результата занимайтесь с ребёнком ежедневно.
 
-<a href="https://apps.apple.com/ru/app/тренажёр-для-обучения-чтению/id1527876284?l=en" style="display: inline-block; margin: 1rem 0;">
+<a href="https://apps.apple.com/ru/app/тренажёр-чтения-по-слогам/id1530967638?l=en" style="display: inline-block; margin: 1rem 0;">
     <img src="/assets/images/download-on-the-app-store-ru.svg" width="200"/>
 </a>
 
