@@ -22,3 +22,5 @@ permalink: /apps/advent-calendar
 
 <img src="/assets/images/advent/3.png" width="200"/>
 <img src="/assets/images/advent/4.png" width="200"/>
+
+В оформлении использованы материалы, предоставленные фотобанком Shutterstock. Авторы: jsabirova, solar lady 
