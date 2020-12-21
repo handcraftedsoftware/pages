@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Xmas Party Game Forteits"
+title:  "Новогодние фанты"
 date:   2020-12-18
 permalink: /apps/forfeit-ru
 ---
