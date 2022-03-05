@@ -14,5 +14,9 @@ This application trains your keyboard typing skills in a playful manner.
 You can use both an external keyboard (recommended) or screen keyboard. 
 The game is based on Russian folktale Kolobok.
 
+<a href="https://apps.apple.com/ru/app/fairytyping/id1598729563" style="display: inline-block; margin: 1rem 0;">
+    <img src="/assets/images/download-on-the-app-store-ru.svg" width="200"/>
+</a>
+
 <img src="/assets/images/fairytyping/4.jpg" width="200"/>
 <img src="/assets/images/fairytyping/5.jpg" width="200"/>
