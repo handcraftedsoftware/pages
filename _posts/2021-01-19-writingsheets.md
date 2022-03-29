@@ -9,12 +9,12 @@ permalink: /apps/writingsheets
 Но лучше с самого начала научиться писать красиво.
 Основываясь на методике Николай Боголюбова мы создали прописи для тренировки детей письму. 
 
-[a link] (Пустой лист с правильной разлиновкой для 1го класса (клетка крупнее чем для 2го).)
+<a href = "https://github.com/handcraftedsoftware/printable/raw/main/writing-sheet-blank.pdf">(Пустой лист с правильной разлиновкой для 1го класса (клетка крупнее чем для 2го).)</a>
 
-Пропись первая.
-Пропись вторая.
-Пропись третья.
+<a href ="https://github.com/handcraftedsoftware/printable/raw/main/writing-sheet-lesson-1.pdf"> Пропись первая.</a>
+<a href ="https://github.com/handcraftedsoftware/printable/raw/main/writing-sheet-lesson-2.pdf"> Пропись вторая.</a>
+<a href ="https://github.com/handcraftedsoftware/printable/raw/main/writing-sheet-lesson-3.pdf"> Пропись третья.</a>
 
-Все прописи в формате PDF, скачиваете, распетачатываете и тренируетесь.
+Все прописи в формате PDF, скачиваете, распечатываете и тренируетесь.
 
 Красивого вам и вашим деткам почерка!
