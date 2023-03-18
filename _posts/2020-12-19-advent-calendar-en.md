@@ -3,6 +3,7 @@ layout: post
 title:  "Advent Calendar"
 date:   2020-12-19
 permalink: /apps/advent-calendar-en
+excerpt: "This Advent calendar offers 31 creative and practical ideas to countdown to Christmas or New Year's Eve. Each day, you tap on a square to reveal an image and a unique idea to help you prepare for the holidays. The ideas range from homemade decorations and festive recipes to gift ideas and fun activities to do with loved ones. It's an effortless and enjoyable way to get into the holiday spirit and create lasting memories with friends and family."
 ---
 <img src="/assets/images/advent/1.png" width="200"/>
 <img src="/assets/images/advent/6.png" width="200"/>
