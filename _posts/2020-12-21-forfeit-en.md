@@ -6,6 +6,7 @@ permalink: /apps/forfeit-en
 ---
 Unfortunately, the application and game were rejected by AppStore because it is too easy for users. However, you can still utilize the fun and creative ideas for your New Year's party.
 The rules are simple: get a task and do your best to complete it. To get a new task just shake the handset. There are no winners or losers in this game, only a great Holiday Spirit! 
+
 <img src="/assets/images/forfeit/1.png" width="200"/>
 <img src="/assets/images/forfeit/2.png" width="200"/>
 <img src="/assets/images/forfeit/3.png" width="200"/>
