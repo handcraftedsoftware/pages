@@ -16,7 +16,9 @@ Lock the screen to prevent accidental touches from disrupting your work.
 Take a white paper and a marker to trace an image.
 
 Enjoy a clean, intuitive interface that makes navigation a breeze.
-
+<a href="https://apps.apple.com/us/app/light-tracing-pad/id6502201581" style="display: inline-block; margin: 1rem 0;">
+    <img src="/assets/images/download-on-the-app-store-en.svg" width="200"/>
+</a>
 Download Light Tracing Pad today and turn your device into a portable tracing studio!
 
 <img src="/assets/images/light-tracing-pad/2.png" width="200"/>
