@@ -4,8 +4,15 @@
     {%- assign page_paths = site.header_pages -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       <img class="logotype" src="/assets/images/handcrafted.software.svg" alt="{{ site.title | escape }}" />
+    </a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {{ site.title | escape }}
     </a>
+
+    <nav class="site-nav">
+        <a class="page-link" href="{{ "/apps" | relative_url }}">Apps</a>
+        <a class="page-link" href="{{ "/books" | relative_url }}">Books</a>
+    </nav>
 
     {%- if page_paths -%}
       <nav class="site-nav">

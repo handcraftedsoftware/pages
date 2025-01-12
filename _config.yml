@@ -5,6 +5,9 @@ url: "https://handcrafted.software"
 copyright: "handcrafted.software"
 markdown: kramdown
 theme: minima
+collections:
+  books:
+    output: true
 footer_pages:
   - "contacts.md"
   - "legal/privacy.md"
