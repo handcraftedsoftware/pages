@@ -287,3 +287,70 @@
     font-family: Amaranth;
     color: #555;
 }
+
+.featured-ios-apps {
+}
+
+.page-section {
+    margin-bottom: 3rem;
+}
+
+/* .featured-ios-apps h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+} */
+
+.apps-grid {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    gap: 1rem;
+    justify-items: center;
+}
+
+.app {
+    display: flex;
+}
+
+.app-icon {
+    display: block;
+    margin-right: 1rem;
+}
+
+.app-icon img {
+    width: 12rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.app-desription {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.app-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 80px;
+}
+
+.book-cover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 8rem;
+    display: block;
+    margin-right: 1rem;
+}
+
+.latest-post-list {
+    .post-title a {
+        font-size: 1.2rem;
+        color: #333;
+    }
+    .post-content {
+        font-size: 1rem;
+    }
+}

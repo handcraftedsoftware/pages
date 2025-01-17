@@ -2,10 +2,10 @@
 layout: post
 title:  "Xmas Party Game Forteits"
 date:   2020-12-18
-permalink: /apps/forfeit-en
+permalink: /posts/forfeit-en
 ---
 Unfortunately, the application and game were rejected by AppStore because it is too easy for users. However, you can still utilize the fun and creative ideas for your New Year's party.
-The rules are simple: get a task and do your best to complete it. To get a new task just shake the handset. There are no winners or losers in this game, only a great Holiday Spirit! 
+The rules are simple: get a task and do your best to complete it. To get a new task just shake the handset. There are no winners or losers in this game, only a great Holiday Spirit!
 
 <img src="/assets/images/forfeit/1.png" width="200"/>
 <img src="/assets/images/forfeit/2.png" width="200"/>
@@ -51,7 +51,7 @@ In the app you will find:
 * Make up a Christmas riddle,
 * Stay and say as Santa 'HO, HO, HO!' every 5 minutes during the game
 
-Additional ideas: 
+Additional ideas:
 
 * Take a group photo with silly New Year's Eve hats and post it on social media.
 * Recite the countdown to New Year's Eve in a different language.

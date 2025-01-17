@@ -1,0 +1,14 @@
+- name: "Light Pad"
+  description: "Transform your iPad or iPhone into a digital Light Tracing Pad!"
+  image: "/assets/images/app-icons/light-pad.png"
+  link: "https://apps.apple.com/us/app/light-tracing-pad/id6502201581"
+
+- name: "Isometric Drawing"
+  description: "Unlock your creativity with a stunning isometric drawing tool!"
+  image: "/assets/images/app-icons/isometric-drawing.png"
+  link: "https://apps.apple.com/us/app/isometric-drawing/id6739287338"
+
+- name: "CardsPack"
+  description: "Keep your loyalty cards organized and accessible!"
+  image: "/assets/images/app-icons/cards-pack.png"
+  link: "https://apps.apple.com/us/app/cardspack/id6739948526"

@@ -2,17 +2,22 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
+  <meta
+      name="description"
+      content="Turning ideas into apps and books that inspire"
+  />
 
   <body>
 
-      <header class="site-header" role="banner">
+      <!-- <header class="site-header" role="banner">
         <div class="wrapper">
             <div style="display: flex; align-items: center;">
                 <img style="width: 5rem; margin: 1.5rem" src="/assets/images/handcrafted.software.svg" alt="{{ site.title | escape }}" />
                 <h1 class="site-title" style="font-size: 3rem">handcrafted.software</h1>
             </div>
         </div>
-      </header>
+      </header> -->
+    {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">

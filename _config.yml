@@ -6,6 +6,8 @@ copyright: "handcrafted.software"
 markdown: kramdown
 theme: minima
 collections:
+  apps:
+    output: true
   books:
     output: true
 footer_pages:
