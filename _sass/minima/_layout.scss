@@ -284,6 +284,10 @@
 
 .page-heading {
     @include relative-font-size(3);
+}
+
+.page-heading,
+.section-header {
     font-family: Amaranth;
     color: #555;
 }
@@ -306,10 +310,14 @@
     /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
     gap: 1rem;
     justify-items: center;
+    /* flex-wrap: wrap; */
 }
 
 .app {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
 .app-icon {
@@ -321,6 +329,7 @@
     width: 12rem;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
 .app-desription {
@@ -338,6 +347,18 @@
     max-width: 80px;
 }
 
+@media (max-width: 768px) {
+    .app {
+        flex-direction: column;
+        align-items: justify;
+    }
+
+    .app-icon img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 .book-cover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 8rem;
@@ -352,5 +373,16 @@
     }
     .post-content {
         font-size: 1rem;
+    }
+}
+
+.about-content img {
+    margin: 0 1rem 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        align-items: justify;
     }
 }

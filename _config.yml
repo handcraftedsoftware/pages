@@ -5,6 +5,10 @@ url: "https://handcrafted.software"
 copyright: "handcrafted.software"
 markdown: kramdown
 theme: minima
+header_pages:
+  - "apps.md"
+  - "books.md"
+  - "posts.md"
 collections:
   apps:
     output: true

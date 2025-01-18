@@ -9,9 +9,9 @@ layout: home
 
 <header>
     <div class="hero page-section">
-        <h1>Turning Ideas into Apps and Books That Inspire</h1>
+        <h1 class="section-header">Turning ideas into apps and books that inspire</h1>
         <p>
-            Creating unique iOS apps and engaging Amazon books to
+            Creating unique apps and engaging books to
             inspire and empower.
         </p>
     </div>
@@ -19,7 +19,7 @@ layout: home
 
 <main>
     <section class="featured-ios-apps page-section">
-      <h2>Featured iOS Apps</h2>
+      <h2 class="section-header">Featured Apps</h2>
       <div class="apps-list">
           <div class="apps-grid">
             {% for app in site.data.featured_ios_apps %}
@@ -40,7 +40,7 @@ layout: home
     </section>
 
     <section id="books" class="portfolio-section page-section">
-        <h2>Amazon Books</h2>
+        <h2 class="section-header">Books</h2>
         <div class="apps-list">
           <div class="apps-grid">
             {% for app in site.data.featured_books %}
@@ -61,16 +61,16 @@ layout: home
     </section>
 
     <section id="about" class="page-section">
-        <h2>About Me</h2>
+        <h2 class="section-header">About Me</h2>
         <div class="about-content" style="display: flex">
             <img
-              style="border-radius: 50%; margin-right: 1rem; width: 8rem;"
+              style="border-radius: 50%; margin-right: 1rem; width: 8rem; height: 8rem;"
                 src="/assets/images/profile.png"
                 alt="Profile Picture"
                 class="profile-pic"
             />
             <p>
-            Hi! I'm Natalia, a developer dedicated to creating iOS apps that inspire and empower.
+            Hi! I'm Natalia, a developer dedicated to creating apps that inspire and empower.
             My passion lies in bringing ideas to life and crafting seamless,
             user-focused experiences that truly make a difference.
             With every project, I strive to merge creativity and functionality,
@@ -80,7 +80,7 @@ layout: home
     </section>
 
     <section id="blog" class="page-section">
-        <h2>Latest Posts</h2>
+        <h2 class="section-header">Latest Posts</h2>
         <ul class="post-list latest-post-list">
         {% assign latest_posts = site.posts | sort "date" | reverse | slice: 0, 3 %}
         {% for post in latest_posts %}
