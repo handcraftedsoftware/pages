@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: "Turning ideas into apps and books that inspire"
 ---
 
 
@@ -96,6 +97,8 @@ layout: home
             </p>
             <div class="post-content">
                 {{ post.excerpt }}
+
+                <a href="{{ post.url | relative_url }}">Continue reading…</a>
             </div>
         </li>
         {% endfor %}
