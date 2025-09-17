@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Privacy Policy"
-date:   2024-12-27
+date:   2025-09-17
 ---
 
 Our mobile application is designed with your privacy in mind. We do not collect, store, or share any personal data. Here’s what you can expect:
