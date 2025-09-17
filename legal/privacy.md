@@ -8,8 +8,6 @@ Our mobile application is designed with your privacy in mind. We do not collect,
 
 #### No Data Collection:
 The app does not collect any user information, including names, email addresses, or any other personal data. All information you enter into the app (such as card details) remains securely stored on your device.
-#### No In-App Purchases or Advertisements:
-The app is completely free of in-app purchases and advertisements. You can enjoy its full functionality without interruptions or hidden costs.
 #### No Social Media Links:
 The app does not include links to social media platforms, ensuring a distraction-free experience.
 #### Offline Use:
