@@ -1,44 +1,87 @@
 ---
 layout: post
-title:  "Advent Calendar"
-date:   2020-12-19
-permalink: /apps/advent-calendar-en
+title: "Advent Adventure"
+description: "An interactive Advent calendar with daily ideas for Christmas and New Year's Eve."
+summary: "Open a new December idea each day and turn the holiday countdown into a small adventure."
+image: "/assets/images/app-icons/advent-adventure.jpg"
+date: 2024-11-18
+status: active
+hide_date: true
+permalink: /apps/advent-adventure
 ---
-<img src="/assets/images/advent/1.png" width="200"/>
-<img src="/assets/images/advent/6.png" width="200"/>
-<img src="/assets/images/advent/5.png" width="200"/>
-<br/>
-This Advent calendar offers 31 creative and practical ideas to countdown to Christmas or New Year's Eve. Each day, you tap on a square to reveal an image and a unique idea to help you prepare for the holidays. The ideas range from homemade decorations and festive recipes to gift ideas and fun activities to do with loved ones. It's an effortless and enjoyable way to get into the holiday spirit and create lasting memories with friends and family.
 
-#### About
+<section class="product-hero">
+  <div class="product-hero-copy">
+    <p class="product-kicker">Holiday countdown app for iPhone</p>
+    <p class="product-hero-line">Open a new December idea each day and make the holiday countdown more playful.</p>
+    <p>
+      Advent Adventure is an interactive Advent calendar for Christmas and New
+      Year's Eve. Tap a square each day to reveal a creative idea, small activity,
+      or holiday preparation prompt.
+    </p>
+    <a class="app-store-cta" href="https://apps.apple.com/us/app/advent-adventure/id6738355652">
+      <img src="/assets/images/download-on-the-app-store-en.svg" width="200" alt="Download on the App Store"/>
+    </a>
+    <p class="trust-note">A seasonal app for December countdowns and holiday planning.</p>
+  </div>
+  <img
+    class="product-hero-image product-icon-hero"
+    src="/assets/images/app-icons/advent-adventure.jpg"
+    alt="Advent Adventure app icon"
+  />
+</section>
 
-This Advent calendar provides you with a fun and engaging way to countdown to Christmas or New Year's Eve. With 31 creative and crafty ideas, you can turn the anticipation of these holidays into an unforgettable adventure!
+## Problem
 
-Using this Advent calendar is effortless - simply tap on one square per day to reveal a delightful image and a unique idea on how to prepare for the festive season. The ideas are both fun and practical, ranging from homemade decorations and festive recipes to unique gift ideas and fun activities to do with your loved ones.
+The weeks before Christmas and New Year's Eve can pass quickly, even when you want to make them feel special.
 
-Not only is this Advent calendar enjoyable, but it is also a fantastic way to get into the holiday spirit and make lasting memories. Whether you are looking for inspiration for your own holiday preparations or want to share the experience with friends and family.
+Advent Adventure gives you one small idea per day, turning the countdown into a simple daily ritual.
 
-Easy to use: tap and open one square per day and find funny image and idea how to prepare for the Xmas and New Year’s Eve.
+## Who It Is For
 
-### 5 Interesting facts about Advent calendars you should know:
+<div class="use-case-grid">
+  <section>
+    <h3>Families</h3>
+    <p>Open one square a day and use the prompt as a small shared holiday activity.</p>
+  </section>
+  <section>
+    <h3>Holiday planners</h3>
+    <p>Collect small ideas for crafts, preparation, and festive moments during December.</p>
+  </section>
+  <section>
+    <h3>People who like rituals</h3>
+    <p>Add a light daily moment to the holiday season without making a complicated plan.</p>
+  </section>
+</div>
 
-* Advent calendars originated in Germany in the early 19th century as a way for families to countdown to Christmas. They were initially made from paper and featured religious images or bible verses.The first Advent calendars were not designed for children, but rather for adults. They were originally created as a way for adults to mark the days leading up to Christmas with a small gift or treat.
-* The first commercial Advent calendar was produced in Germany in 1902 by a printer named Gerhard Lang. It featured little doors that could be opened to reveal festive images. Today, Advent calendars come in many forms, including traditional paper calendars, chocolate-filled calendars, and even digital versions that can be accessed on smartphones or tablets.
-* In some countries, it is customary to light an Advent candle each Sunday leading up to Christmas as a way to mark the passing of time.
-* The most expensive Advent calendar ever sold was a jeweled calendar sold at Harrods in London for £68,000. It featured diamonds, rubies, and other precious gems.
-* The world's largest Advent calendar was created in 2007 in the town of Gengenbach, Germany. It was made up of 24 windows on the side of a building and was certified by Guinness World Records.
+## How It Works
 
+1. Open the Advent calendar.
+2. Tap the next square for the day.
+3. Reveal a holiday idea or activity prompt.
+4. Use it for Christmas or New Year's Eve preparation.
 
-The tradition of Advent calendars has spread around the world and is now popular in many countries, including the United States, Canada, Australia, and the United Kingdom.
+## Screenshots
 
+<div class="phone-screenshot-grid">
+  <img src="/assets/images/advent-adventure/1.jpg" alt="Advent Adventure calendar screen screenshot"/>
+  <img src="/assets/images/advent-adventure/2.jpg" alt="Advent Adventure daily idea screenshot"/>
+  <img src="/assets/images/advent-adventure/3.jpg" alt="Advent Adventure holiday prompt screenshot"/>
+</div>
 
-<a href="https://apps.apple.com/ru/app/new-year-advent-calendar/id1545634527?l=en" style="display: inline-block; margin: 1rem 0;">
-    <img src="/assets/images/download-on-the-app-store-en.svg" width="200"/>
+## Features
+
+- **Daily December prompts.** Open one square per day during the holiday countdown.
+- **Creative holiday ideas.** Discover small activities, preparation ideas, and festive prompts.
+- **Simple interaction.** Tap a square, reveal the idea, and use it when it fits your day.
+- **Christmas and New Year's Eve.** The prompts are built around the winter holiday season.
+
+## Maker Note
+
+I build small apps for focused real-world moments. Advent Adventure exists for the short season when a small daily prompt can make December feel more intentional.
+
+## Ready for the holiday countdown?
+
+<a class="app-store-cta final-cta" href="https://apps.apple.com/us/app/advent-adventure/id6738355652">
+  <img src="/assets/images/download-on-the-app-store-en.svg" width="200" alt="Download Advent Adventure on the App Store"/>
 </a>
-
-<img src="/assets/images/advent/7.png" width="200"/>
-<img src="/assets/images/advent/8.png" width="200"/>
-
-The App uses images provided by Shutterstock photo bank. The authors: jsabirova, solar lady 
-
-

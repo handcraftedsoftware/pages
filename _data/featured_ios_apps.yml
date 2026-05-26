@@ -27,3 +27,8 @@
   description: "A Russian-language trainer for practicing letters, numbers, and syllables together."
   image: "/assets/images/app-icons/symbols.jpg"
   link: "/apps/symbols"
+
+- name: "Advent Adventure"
+  description: "Open a new December idea each day and turn the holiday countdown into a small adventure."
+  image: "/assets/images/app-icons/advent-adventure.jpg"
+  link: "/apps/advent-adventure"
