@@ -28,7 +28,7 @@ permalink: /apps/syllabic-reading
 
 Успехов в чтении!
 
-Спасибо, что используете наше приложение. Нам очень интересно узнать ваше мнение о нём в отзывах AppStore.
+Спасибо, что используете наше приложение. Нам очень интересно узнать ваше мнение о нём в отзывах App Store.
 
 <img src="/assets/images/syllabic-reading/4.png" width="200"/>
 <img src="/assets/images/syllabic-reading/5.png" width="200"/>
@@ -37,4 +37,3 @@ permalink: /apps/syllabic-reading
 <img src="/assets/images/syllabic-reading/8.png" width="200"/>
 <img src="/assets/images/syllabic-reading/9.png" width="200"/>
 <img src="/assets/images/syllabic-reading/10.png" width="200"/>
-

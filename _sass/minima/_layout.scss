@@ -255,6 +255,11 @@
     }
 }
 
+.post-content img {
+    height: auto;
+    max-width: 100%;
+}
+
 .home-header {
     @include relative-font-size(6);
     font-weight: 300;
