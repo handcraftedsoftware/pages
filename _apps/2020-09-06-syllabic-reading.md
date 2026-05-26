@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Тренажёр чтения по слогам"
-description: "Русскоязычное приложение для совместной тренировки чтения по слогам с ребёнком."
+description: "Русскоязычное приложение для iPhone и iPad, которое помогает родителям тренировать чтение по слогам вместе с ребёнком."
 summary: "Русскоязычный тренажёр для совместной практики чтения по слогам."
 catalog_title: "Syllabic Reading Trainer"
 catalog_summary: "A Russian-language reading trainer for practicing syllable reading together."
@@ -10,6 +10,8 @@ date: 2020-09-09
 status: active
 hide_date: true
 permalink: /apps/syllabic-reading
+canonical_url: "https://handcrafted.software/apps/syllabic-reading"
+lang: ru
 ---
 
 <section class="product-hero">

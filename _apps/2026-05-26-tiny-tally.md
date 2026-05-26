@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Tiny Tally"
-description: "Create simple trackers and counters, log events quickly, and see clear stats for habits, goals, and everyday patterns."
+description: "Tiny Tally is an iPhone app for creating simple trackers, logging events quickly, and reviewing stats for habits, goals, and everyday patterns."
 summary: "Track habits, goals, and small everyday counts with quick logging and simple stats."
 image: "/assets/images/app-icons/tiny-tally.jpg"
 date: 2026-05-26
 status: active
 hide_date: true
 permalink: /apps/tiny-tally
+canonical_url: "https://handcrafted.software/apps/tiny-tally"
 ---
 
 <section class="product-hero">

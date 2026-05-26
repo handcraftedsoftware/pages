@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Advent Adventure"
-description: "An interactive Advent calendar with daily ideas for Christmas and New Year's Eve."
+description: "Advent Adventure is an interactive iPhone Advent calendar with daily creative ideas for Christmas and New Year's Eve."
 summary: "Open a new December idea each day and turn the holiday countdown into a small adventure."
 image: "/assets/images/app-icons/advent-adventure.jpg"
 date: 2024-11-18
 status: active
 hide_date: true
 permalink: /apps/advent-adventure
+canonical_url: "https://handcrafted.software/apps/advent-adventure"
 ---
 
 <section class="product-hero">

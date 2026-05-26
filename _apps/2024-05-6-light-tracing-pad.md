@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Lightbox Tracing Pad"
-description: "Turn your iPad or iPhone into a simple lightbox for tracing sketches, lettering, tattoo ideas, craft designs, and reference images on paper."
+description: "Lightbox Tracing Pad turns your iPhone or iPad into a simple lightbox for tracing sketches, lettering, craft designs, and reference images on paper."
 summary: "Turn your iPad or iPhone into a simple lightbox for tracing images on paper."
 image: "/assets/images/app-icons/light-pad.png"
 date: 2024-05-06
 status: active
 hide_date: true
 permalink: /apps/light-tracing-pad
+canonical_url: "https://handcrafted.software/apps/light-tracing-pad"
 ---
 
 <section class="product-hero">

@@ -1,13 +1,14 @@
 ---
 layout: post
 title: "Isometric Drawing"
-description: "Create clean isometric drawings with a simple focused drawing tool for iPhone and iPad."
+description: "Isometric Drawing is a focused iPhone and iPad app for creating clean isometric sketches with a dedicated drawing grid."
 summary: "Create clean isometric drawings with a simple focused drawing tool."
 image: "/assets/images/app-icons/isometric-drawing.png"
 date: 2026-05-26
 status: active
 hide_date: true
 permalink: /apps/isometric-drawing
+canonical_url: "https://handcrafted.software/apps/isometric-drawing"
 ---
 
 <section class="product-hero">
