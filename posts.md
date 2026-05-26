@@ -1,5 +1,5 @@
 ---
 layout: posts
-title:  "Posts"
+title:  "Notes"
 permalink: "/posts/"
 ---

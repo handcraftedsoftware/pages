@@ -3,24 +3,28 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: "Turning ideas into apps and books that inspire"
+title: "Small, focused apps and practical tools"
 ---
 
 
 
 <header>
     <div class="hero page-section">
-        <h1 class="section-header">Turning ideas into apps and books that inspire</h1>
+        <h1 class="section-header">Small, focused apps and practical tools</h1>
         <p>
-            Creating unique apps and engaging books to
-            inspire and empower.
+            Handcrafted by Natalia, an independent developer building simple
+            products for drawing, planning, organizing, and everyday creative work.
         </p>
+        <div class="hero-actions">
+            <a class="primary-action" href="#apps">Explore apps</a>
+            <a class="secondary-action" href="#books">See books and notes</a>
+        </div>
     </div>
 </header>
 
 <main>
-    <section class="featured-ios-apps page-section">
-      <h2 class="section-header">Featured Apps</h2>
+    <section id="apps" class="featured-ios-apps page-section">
+      <h2 class="section-header">Apps</h2>
       <div class="apps-list">
           <div class="apps-grid">
             {% for app in site.data.featured_ios_apps %}
@@ -41,7 +45,7 @@ title: "Turning ideas into apps and books that inspire"
     </section>
 
     <section id="books" class="portfolio-section page-section">
-        <h2 class="section-header">Books</h2>
+        <h2 class="section-header">Books and planners</h2>
         <div class="apps-list">
           <div class="apps-grid">
             {% for app in site.data.featured_books %}
@@ -62,7 +66,7 @@ title: "Turning ideas into apps and books that inspire"
     </section>
 
     <section id="about" class="page-section">
-        <h2 class="section-header">About Me</h2>
+        <h2 class="section-header">About</h2>
         <div class="about-content">
             <img
                 src="/assets/images/profile.png"
@@ -70,17 +74,16 @@ title: "Turning ideas into apps and books that inspire"
                 class="profile-pic"
             />
             <p>
-            Hi! I'm Natalia, a developer dedicated to creating apps that inspire and empower.
-            My passion lies in bringing ideas to life and crafting seamless,
-            user-focused experiences that truly make a difference.
-            With every project, I strive to merge creativity and functionality,
-            transforming complex problems into elegant solutions.
+            I'm Natalia, an independent developer building small apps and practical
+            tools for focused real-world tasks. I like products that do one job
+            clearly: helping someone draw, organize, plan a week, or make a small
+            creative task easier.
             </p>
         </div>
     </section>
 
     <section id="blog" class="page-section">
-        <h2 class="section-header">Latest Posts</h2>
+        <h2 class="section-header">Notes</h2>
         <ul class="post-list latest-post-list">
         {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 3 %}
         {% for post in latest_posts %}

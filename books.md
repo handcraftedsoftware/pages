@@ -1,5 +1,5 @@
 ---
 layout: books
-title:  "Books"
+title:  "Books and planners"
 permalink: "/books/"
 ---

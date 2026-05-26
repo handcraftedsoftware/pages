@@ -304,6 +304,43 @@
     margin-bottom: 3rem;
 }
 
+.hero p {
+    max-width: 42rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.primary-action,
+.secondary-action {
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0.55rem 0.85rem;
+}
+
+.primary-action {
+    background: #333;
+    color: #fff;
+
+    &:visited {
+        color: #fff;
+    }
+}
+
+.secondary-action {
+    border: 1px solid #cfcfcf;
+    color: #333;
+
+    &:visited {
+        color: #333;
+    }
+}
+
 /* .featured-ios-apps h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
