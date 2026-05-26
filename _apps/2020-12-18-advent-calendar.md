@@ -4,6 +4,8 @@ title:  "Новогодний адвент-календарь"
 date:   2020-12-18
 status: archived
 summary: "Archived Russian page for the earlier New Year Advent Calendar."
+catalog_title: "New Year Advent Calendar"
+catalog_summary: "Archived Russian page for the earlier New Year Advent Calendar."
 permalink: /apps/advent-calendar
 ---
 <img src="/assets/images/advent/1.png" width="200"/>

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Handwriting practice sheets"
+summary: "Printable Russian handwriting practice sheets for children learning to write neatly."
+image: "/assets/images/book-covers/handwriting-practice-sheets.svg"
 date: 2021-01-19
 permalink: /books/handwriting-practice-sheets
 ---

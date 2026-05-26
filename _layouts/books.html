@@ -5,21 +5,25 @@ layout: default
 <div class="home">
     <h1 class="page-heading">{{ page.title }}</h1>
 
-    {{ content }} {% for book in site.books %}
-    <article
-        class="post h-entry"
-        itemscope
-        itemtype="http://schema.org/BlogPosting"
-    >
-        <header class="post-header">
-            <h2 class="post-title p-name" itemprop="name headline">
-                {{ book.title | escape }}
-            </h2>
-        </header>
+    {{ content }}
 
-        <div class="post-content e-content" itemprop="articleBody">
-            {{ book.content }}
-        </div>
-    </article>
-    {% endfor %}
+    <div class="book-list">
+        {% assign books = site.books | sort: "date" | reverse %}
+        {% for book in books %}
+        <article class="book-list-item">
+            {% if book.image %}
+            <a class="book-list-cover" href="{{ book.url | relative_url }}">
+                <img src="{{ book.image }}" alt="{{ book.title | escape }} cover">
+            </a>
+            {% endif %}
+            <div class="book-list-copy">
+                <h2>
+                    <a href="{{ book.url | relative_url }}">{{ book.title | escape }}</a>
+                </h2>
+                <p>{{ book.summary | default: book.content | strip_html | normalize_whitespace | truncate: 220 }}</p>
+                <a href="{{ book.url | relative_url }}">Read more</a>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
 </div>

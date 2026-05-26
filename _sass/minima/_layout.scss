@@ -427,6 +427,39 @@
     width: 5rem;
 }
 
+.book-list {
+    display: grid;
+    gap: 2rem;
+}
+
+.book-list-item {
+    align-items: flex-start;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.book-list-cover {
+    display: block;
+    flex: 0 0 7rem;
+}
+
+.book-list-cover img {
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+    display: block;
+    width: 7rem;
+}
+
+.book-list-copy h2 {
+    margin-bottom: 0.35rem;
+}
+
+@media (max-width: 600px) {
+    .book-list-item {
+        flex-direction: column;
+    }
+}
+
 .latest-post-list {
     .post-title a {
         font-size: 1.2rem;
