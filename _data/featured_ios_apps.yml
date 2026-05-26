@@ -22,3 +22,8 @@
   description: "A Russian-language reading trainer for practicing syllable reading together."
   image: "/assets/images/app-icons/syllabic-reading.jpg"
   link: "/apps/syllabic-reading"
+
+- name: "Reading Foundations Trainer"
+  description: "A Russian-language trainer for practicing letters, numbers, and syllables together."
+  image: "/assets/images/app-icons/symbols.jpg"
+  link: "/apps/symbols"
