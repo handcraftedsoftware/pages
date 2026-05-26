@@ -1,24 +1,54 @@
 ---
 layout: post
-title:  "Fairytyping"
-date:   2021-12-4
+title: "Fairytyping"
+description: "Archived page for Fairytyping, a playful typing practice app inspired by Kolobok."
+summary: "Archived typing practice app inspired by the Kolobok folktale."
+image: "/assets/images/fairytyping/1.jpg"
+date: 2021-12-04
+hide_date: true
 permalink: /apps/fairytyping
 ---
-<img src="/assets/images/fairytyping/1.jpg" width="200"/>
-<img src="/assets/images/fairytyping/2.jpg" width="200"/>
-<img src="/assets/images/fairytyping/3.jpg" width="200"/>
 
-#### About
+<section class="product-hero">
+  <div class="product-hero-copy">
+    <p class="product-kicker">Archived iOS app</p>
+    <p class="product-hero-line">A playful typing practice app inspired by the Kolobok folktale.</p>
+    <p>
+      Fairytyping was a small educational game for practicing keyboard typing
+      through short exercises and a familiar story-like setting.
+    </p>
+    <p class="trust-note">Archive note: Fairytyping is no longer available on the App Store.</p>
+  </div>
+  <img
+    class="product-hero-image"
+    src="/assets/images/fairytyping/1.jpg"
+    alt="Fairytyping app screenshot"
+  />
+</section>
 
-This application offers an enjoyable and interactive approach to improving your keyboard typing skills. Whether you use an external keyboard, which is recommended, or the screen keyboard, you can enjoy the benefits of the game. The game is inspired by the Russian folktale Kolobok, which adds an element of fun and cultural interest to the experience.
+## What It Was
 
-Through playful gameplay, this application enables you to develop your typing abilities, such as speed and accuracy. The program provides engaging exercises and challenges that motivate users to keep practicing and improving. The use of a beloved folktale as a theme adds an exciting and entertaining twist to the learning process.
+Fairytyping combined typing practice with a playful visual theme inspired by the Russian folktale Kolobok.
 
-Whether you are a beginner or an experienced typist looking to enhance your skills, this application is a fantastic way to develop your typing proficiency. The combination of fun gameplay and effective training methods make it a valuable tool for anyone looking to improve their keyboard typing skills.
+The app was designed as a focused practice space for people learning to type or trying to improve typing fluency.
 
-<a href="https://apps.apple.com/ru/app/fairytyping/id1598729563" style="display: inline-block; margin: 1rem 0;">
-    <img src="/assets/images/download-on-the-app-store-en.svg" width="200"/>
-</a>
+## How It Worked
 
-<img src="/assets/images/fairytyping/4.jpg" width="200"/>
-<img src="/assets/images/fairytyping/5.jpg" width="200"/>
+1. Start a typing exercise.
+2. Type the shown letters or words.
+3. Continue through the playful practice flow.
+4. Use an external keyboard or the on-screen keyboard.
+
+## Screenshots
+
+<div class="phone-screenshot-grid">
+  <img src="/assets/images/fairytyping/1.jpg" alt="Fairytyping start screen screenshot"/>
+  <img src="/assets/images/fairytyping/2.jpg" alt="Fairytyping typing exercise screenshot"/>
+  <img src="/assets/images/fairytyping/3.jpg" alt="Fairytyping game screen screenshot"/>
+</div>
+
+## Historical Note
+
+This page keeps a record of the project as part of the handcrafted.software archive.
+
+Fairytyping is not positioned here as a currently available product.
