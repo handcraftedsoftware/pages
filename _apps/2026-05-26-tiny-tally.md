@@ -60,6 +60,14 @@ Tiny Tally gives you a quick way to count repeat moments, review patterns, and u
 3. Review stats and trends by day, month, or year.
 4. Export your data when you want to keep a copy elsewhere.
 
+## Screenshots
+
+<div class="phone-screenshot-grid">
+  <img src="/assets/images/tiny-tally/1.jpg" alt="Tiny Tally iPhone app screenshot"/>
+  <img src="/assets/images/tiny-tally/2.jpg" alt="Tiny Tally tracker detail screenshot"/>
+  <img src="/assets/images/tiny-tally/3.jpg" alt="Tiny Tally stats screenshot"/>
+</div>
+
 ## Features
 
 - **Custom trackers.** Create counters for habits, goals, routines, and personal patterns.

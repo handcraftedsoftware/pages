@@ -533,6 +533,19 @@
     width: 100%;
 }
 
+.phone-screenshot-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    margin: 1rem 0 2rem;
+}
+
+.phone-screenshot-grid img {
+    border-radius: 8px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.14);
+    width: 100%;
+}
+
 .final-cta {
     margin-top: 0;
 }
