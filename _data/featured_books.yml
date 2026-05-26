@@ -2,3 +2,8 @@
   description: "A one-week A5 planner for work, personal projects, home tasks, mood, health, and daily reflection."
   image: "/assets/images/book-covers/one-productive-week.jpg"
   link: "https://a.co/d/emB8ZAe"
+
+- name: "Handwriting practice sheets"
+  description: "Printable Russian handwriting practice sheets for children."
+  image: "/assets/images/book-covers/handwriting-practice-sheets.svg"
+  link: "/books/handwriting-practice-sheets"

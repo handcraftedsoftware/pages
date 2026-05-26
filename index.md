@@ -41,6 +41,9 @@ title: "Small, focused apps and practical tools"
             </div>
             {% endfor %}
         </div>
+        <p class="section-link">
+            <a href="/apps/">Browse all apps</a>
+        </p>
       </div>
     </section>
 

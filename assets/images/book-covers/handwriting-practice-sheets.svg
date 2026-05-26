@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Handwriting practice sheets cover</title>
+  <desc id="desc">A simple cover for printable handwriting practice sheets.</desc>
+  <rect width="600" height="900" fill="#f7f4ef"/>
+  <rect x="64" y="84" width="472" height="732" rx="8" fill="#fffdf8" stroke="#d8d0c3" stroke-width="4"/>
+  <g stroke="#d9e4ec" stroke-width="3">
+    <line x1="104" y1="226" x2="496" y2="226"/>
+    <line x1="104" y1="284" x2="496" y2="284"/>
+    <line x1="104" y1="342" x2="496" y2="342"/>
+    <line x1="104" y1="400" x2="496" y2="400"/>
+    <line x1="104" y1="458" x2="496" y2="458"/>
+    <line x1="104" y1="516" x2="496" y2="516"/>
+    <line x1="104" y1="574" x2="496" y2="574"/>
+  </g>
+  <g fill="none" stroke="#555" stroke-linecap="round" stroke-width="12">
+    <path d="M126 310c34-62 84-62 118 0s84 62 118 0 84-62 118 0"/>
+    <path d="M126 444c42-44 78-44 120 0s78 44 120 0 78-44 120 0"/>
+  </g>
+  <text x="104" y="138" fill="#444" font-family="Georgia, serif" font-size="42" font-weight="700">Handwriting</text>
+  <text x="104" y="184" fill="#444" font-family="Georgia, serif" font-size="42" font-weight="700">practice sheets</text>
+  <text x="104" y="690" fill="#777" font-family="Arial, sans-serif" font-size="26">Printable PDFs</text>
+  <text x="104" y="728" fill="#777" font-family="Arial, sans-serif" font-size="26">for children</text>
+</svg>
