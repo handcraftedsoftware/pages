@@ -13,7 +13,7 @@ layout: default
         <li>
             <h2>
                 <a class="post-link" href="{{ app.url | relative_url }}">
-                    {% if app.image != empty %}
+                    {% if app.image %}
                     <span
                         class="post-image"
                         style="background-image: url('{{ app.image }}')"
@@ -24,7 +24,7 @@ layout: default
                 </a>
             </h2>
             <div class="post-content">
-                {{ app.excerpt }}
+                {{ app.content | strip_html | normalize_whitespace | truncate: 220 }}
                 <br />
                 <a href="{{ app.url | relative_url }}">Read more</a>
             </div>
