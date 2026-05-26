@@ -83,7 +83,7 @@ title: "Turning ideas into apps and books that inspire"
     <section id="blog" class="page-section">
         <h2 class="section-header">Latest Posts</h2>
         <ul class="post-list latest-post-list">
-        {% assign latest_posts = site.posts | sort "date" | reverse | slice: 0, 3 %}
+        {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 3 %}
         {% for post in latest_posts %}
         <li>
             <h3 class="post-title">
