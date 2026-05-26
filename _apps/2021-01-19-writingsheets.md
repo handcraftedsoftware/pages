@@ -2,6 +2,8 @@
 layout: post
 title:  "Прописи для детей"
 date:   2021-01-19
+status: hidden
+summary: "Printable handwriting practice sheets for children."
 permalink: /apps/writingsheets
 ---
 
