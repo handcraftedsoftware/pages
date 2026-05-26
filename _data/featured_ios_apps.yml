@@ -12,3 +12,8 @@
   description: "Keep loyalty cards in one simple place, ready when you need them."
   image: "/assets/images/app-icons/cards-pack.png"
   link: "/apps/cardspack"
+
+- name: "Tiny Tally"
+  description: "Track habits, goals, and small everyday counts with quick logging and simple stats."
+  image: "/assets/images/app-icons/tiny-tally.jpg"
+  link: "/apps/tiny-tally"
