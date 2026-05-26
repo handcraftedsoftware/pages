@@ -306,11 +306,9 @@
 } */
 
 .apps-grid {
-    display: flex;
-    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
-    gap: 1rem;
-    justify-items: center;
-    /* flex-wrap: wrap; */
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
 }
 
 .app {
@@ -322,48 +320,49 @@
 
 .app-icon {
     display: block;
-    margin-right: 1rem;
+    flex: 0 0 auto;
 }
 
 .app-icon img {
-    width: 12rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     object-fit: cover;
 }
 
-.app-desription {
+.app-description {
     font-size: 0.8rem;
     color: #777;
+    margin-bottom: 0;
 }
 
 .app-name {
-    margin-top: 0.5rem;
+    display: block;
     font-size: 0.9rem;
     color: #333;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    max-width: 80px;
 }
 
 @media (max-width: 768px) {
-    .app {
-        flex-direction: column;
-        align-items: justify;
+    .apps-grid {
+        grid-template-columns: 1fr;
     }
 
     .app-icon img {
-        width: 80px;
-        height: 80px;
+        width: 4.5rem;
+        height: 4.5rem;
     }
 }
 
 .book-cover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 8rem;
+    flex: 0 0 5rem;
     display: block;
-    margin-right: 1rem;
+}
+
+.book-cover img {
+    display: block;
+    width: 5rem;
 }
 
 .latest-post-list {
@@ -376,13 +375,25 @@
     }
 }
 
-.about-content img {
-    margin: 0 1rem 1rem 0;
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    flex: 0 0 auto;
+    height: 8rem;
+    width: 8rem;
+}
+
+.about-content p {
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
     .about-content {
         flex-direction: column;
-        align-items: justify;
     }
 }

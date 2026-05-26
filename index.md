@@ -32,7 +32,7 @@ title: "Turning ideas into apps and books that inspire"
                     <a class="app-name" href="{{ app.link }}" title="{{ app.description }}">
                         <strong>{{ app.name }}</strong>
                     </a>
-                    <p class="app-desription">{{ app.description }}</p>
+                    <p class="app-description">{{ app.description }}</p>
                 </div>
             </div>
             {% endfor %}
@@ -53,7 +53,7 @@ title: "Turning ideas into apps and books that inspire"
                     <a class="app-name" href="{{ app.link }}" title="{{ app.description }}">
                         <strong>{{ app.name }}</strong>
                     </a>
-                    <p class="app-desription">{{ app.description }}</p>
+                    <p class="app-description">{{ app.description }}</p>
                 </div>
             </div>
             {% endfor %}
@@ -63,9 +63,8 @@ title: "Turning ideas into apps and books that inspire"
 
     <section id="about" class="page-section">
         <h2 class="section-header">About Me</h2>
-        <div class="about-content" style="display: flex">
+        <div class="about-content">
             <img
-              style="border-radius: 50%; margin-right: 1rem; width: 8rem; height: 8rem;"
                 src="/assets/images/profile.png"
                 alt="Profile Picture"
                 class="profile-pic"
