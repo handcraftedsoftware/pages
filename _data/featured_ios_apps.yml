@@ -4,11 +4,11 @@
   link: "/apps/light-tracing-pad"
 
 - name: "Isometric Drawing"
-  description: "Unlock your creativity with a stunning isometric drawing tool!"
+  description: "Create clean isometric drawings with a simple focused drawing tool."
   image: "/assets/images/app-icons/isometric-drawing.png"
   link: "https://apps.apple.com/us/app/isometric-drawing/id6739287338"
 
 - name: "CardsPack"
-  description: "Keep your loyalty cards organized and accessible!"
+  description: "Keep loyalty cards in one simple place, ready when you need them."
   image: "/assets/images/app-icons/cards-pack.png"
   link: "https://apps.apple.com/us/app/cardspack/id6739948526"

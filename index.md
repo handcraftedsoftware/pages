@@ -12,8 +12,8 @@ title: "Small, focused apps and practical tools"
     <div class="hero page-section">
         <h1 class="section-header">Small, focused apps and practical tools</h1>
         <p>
-            Handcrafted by me, Natalia Obukhova, an independent developer building
-            simple products for drawing, planning, organizing, and everyday creative work.
+            Handcrafted by Natalia Obukhova, an independent developer building simple
+            products for drawing, planning, organizing, and everyday creative work.
         </p>
         <div class="hero-actions">
             <a class="primary-action" href="#apps">Explore apps</a>
@@ -84,6 +84,7 @@ title: "Small, focused apps and practical tools"
 
     <section id="blog" class="page-section">
         <h2 class="section-header">Notes</h2>
+        <p class="section-intro">Notes on apps, product ideas, learning, and building small useful things.</p>
         <ul class="post-list latest-post-list">
         {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 3 %}
         {% for post in latest_posts %}
@@ -98,7 +99,7 @@ title: "Small, focused apps and practical tools"
                 %-d, %Y" -%} {{ post.date | date: date_format }}
             </p>
             <div class="post-content">
-                {{ post.excerpt }}
+                {{ post.excerpt | strip_html | normalize_whitespace | truncate: 220 }}
 
                 <a href="{{ post.url | relative_url }}">Continue reading…</a>
             </div>
