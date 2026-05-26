@@ -5,6 +5,7 @@ description: "Create simple trackers and counters, log events quickly, and see c
 summary: "Track habits, goals, and small everyday counts with quick logging and simple stats."
 image: "/assets/images/app-icons/tiny-tally.jpg"
 date: 2026-05-26
+status: active
 hide_date: true
 permalink: /apps/tiny-tally
 ---

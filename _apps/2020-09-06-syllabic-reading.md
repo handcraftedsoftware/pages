@@ -3,8 +3,11 @@ layout: post
 title: "Тренажёр чтения по слогам"
 description: "Русскоязычное приложение для совместной тренировки чтения по слогам с ребёнком."
 summary: "Русскоязычный тренажёр для совместной практики чтения по слогам."
+catalog_title: "Syllabic Reading Trainer"
+catalog_summary: "A Russian-language reading trainer for practicing syllable reading together."
 image: "/assets/images/app-icons/syllabic-reading.jpg"
 date: 2020-09-09
+status: active
 hide_date: true
 permalink: /apps/syllabic-reading
 ---

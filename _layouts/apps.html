@@ -7,9 +7,14 @@ layout: default
 
     {{ content }}
 
+    {% assign active_apps = site.apps | where: "status", "active" | sort: "date" | reverse %}
+    {% assign archived_apps = site.apps | where: "status", "archived" | sort: "date" | reverse %}
+    {% assign unclassified_apps = site.apps | where_exp: "app", "app.status == nil" | sort: "date" | reverse %}
+
+    {% if active_apps.size > 0 %}
+    <h2>Current Apps</h2>
     <ul class="post-list">
-        {% assign apps = site.apps | sort: "date" | reverse %} {% for app in
-        apps %}
+        {% for app in active_apps %}
         <li>
             <h2>
                 <a class="post-link" href="{{ app.url | relative_url }}">
@@ -20,15 +25,70 @@ layout: default
                     >
                     </span>
                     {% endif %}
-                    <span class="post-title"> {{ app.title | escape }} </span>
+                    <span class="post-title"> {{ app.catalog_title | default: app.title | escape }} </span>
                 </a>
             </h2>
             <div class="post-content">
-                {{ app.summary | default: app.content | strip_html | normalize_whitespace | truncate: 220 }}
+                {{ app.catalog_summary | default: app.summary | default: app.content | strip_html | normalize_whitespace | truncate: 220 }}
                 <br />
                 <a href="{{ app.url | relative_url }}">Read more</a>
             </div>
         </li>
         {% endfor %}
     </ul>
+    {% endif %}
+
+    {% if archived_apps.size > 0 %}
+    <h2>Project Archive</h2>
+    <ul class="post-list">
+        {% for app in archived_apps %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ app.url | relative_url }}">
+                    {% if app.image %}
+                    <span
+                        class="post-image"
+                        style="background-image: url('{{ app.image }}')"
+                    >
+                    </span>
+                    {% endif %}
+                    <span class="post-title"> {{ app.catalog_title | default: app.title | escape }} </span>
+                </a>
+            </h2>
+            <div class="post-content">
+                {{ app.catalog_summary | default: app.summary | default: app.content | strip_html | normalize_whitespace | truncate: 220 }}
+                <br />
+                <a href="{{ app.url | relative_url }}">Read more</a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    {% if unclassified_apps.size > 0 %}
+    <h2>Earlier App Pages</h2>
+    <ul class="post-list">
+        {% for app in unclassified_apps %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ app.url | relative_url }}">
+                    {% if app.image %}
+                    <span
+                        class="post-image"
+                        style="background-image: url('{{ app.image }}')"
+                    >
+                    </span>
+                    {% endif %}
+                    <span class="post-title"> {{ app.catalog_title | default: app.title | escape }} </span>
+                </a>
+            </h2>
+            <div class="post-content">
+                {{ app.catalog_summary | default: app.summary | default: app.content | strip_html | normalize_whitespace | truncate: 220 }}
+                <br />
+                <a href="{{ app.url | relative_url }}">Read more</a>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>

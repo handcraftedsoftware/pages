@@ -5,6 +5,7 @@ description: "Archived page for Fairytyping, a playful typing practice app inspi
 summary: "Archived typing practice app inspired by the Kolobok folktale."
 image: "/assets/images/fairytyping/1.jpg"
 date: 2021-12-04
+status: archived
 hide_date: true
 permalink: /apps/fairytyping
 ---

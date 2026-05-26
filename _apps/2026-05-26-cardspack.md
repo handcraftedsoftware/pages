@@ -5,6 +5,7 @@ description: "Keep loyalty cards in one simple place, ready when you need them a
 summary: "Keep loyalty cards in one simple place, ready when you need them."
 image: "/assets/images/app-icons/cards-pack.png"
 date: 2026-05-26
+status: active
 hide_date: true
 permalink: /apps/cardspack
 ---

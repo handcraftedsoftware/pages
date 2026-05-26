@@ -5,6 +5,7 @@ description: "Turn your iPad or iPhone into a simple lightbox for tracing sketch
 summary: "Turn your iPad or iPhone into a simple lightbox for tracing images on paper."
 image: "/assets/images/app-icons/light-pad.png"
 date: 2024-05-06
+status: active
 hide_date: true
 permalink: /apps/light-tracing-pad
 ---
