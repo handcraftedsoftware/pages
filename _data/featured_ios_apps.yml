@@ -17,3 +17,8 @@
   description: "Track habits, goals, and small everyday counts with quick logging and simple stats."
   image: "/assets/images/app-icons/tiny-tally.jpg"
   link: "/apps/tiny-tally"
+
+- name: "Тренажёр чтения по слогам"
+  description: "Русскоязычный тренажёр для совместной практики чтения по слогам."
+  image: "/assets/images/app-icons/syllabic-reading.jpg"
+  link: "/apps/syllabic-reading"
