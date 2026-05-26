@@ -6,7 +6,7 @@
 - name: "Isometric Drawing"
   description: "Create clean isometric drawings with a simple focused drawing tool."
   image: "/assets/images/app-icons/isometric-drawing.png"
-  link: "https://apps.apple.com/us/app/isometric-drawing/id6739287338"
+  link: "/apps/isometric-drawing"
 
 - name: "CardsPack"
   description: "Keep loyalty cards in one simple place, ready when you need them."
