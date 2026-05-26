@@ -24,7 +24,7 @@ layout: default
                 </a>
             </h2>
             <div class="post-content">
-                {{ app.content | strip_html | normalize_whitespace | truncate: 220 }}
+                {{ app.summary | default: app.content | strip_html | normalize_whitespace | truncate: 220 }}
                 <br />
                 <a href="{{ app.url | relative_url }}">Read more</a>
             </div>

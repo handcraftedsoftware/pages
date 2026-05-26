@@ -2,6 +2,8 @@
 layout: post
 title: "Isometric Drawing"
 description: "Create clean isometric drawings with a simple focused drawing tool for iPhone and iPad."
+summary: "Create clean isometric drawings with a simple focused drawing tool."
+image: "/assets/images/app-icons/isometric-drawing.png"
 date: 2026-05-26
 hide_date: true
 permalink: /apps/isometric-drawing

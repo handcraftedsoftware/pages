@@ -210,6 +210,17 @@
     @include relative-font-size(1.5);
 }
 
+.post-image {
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+    display: inline-block;
+    height: 3rem;
+    margin-right: 0.65rem;
+    vertical-align: middle;
+    width: 3rem;
+}
+
 /**
  * Posts
  */
