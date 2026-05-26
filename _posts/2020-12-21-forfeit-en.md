@@ -1,23 +1,23 @@
 ---
 layout: post
-title:  "Xmas Party Game Forteits"
+title:  "Xmas Party Game Forfeits"
 date:   2020-12-18
 permalink: /posts/forfeit-en
 ---
-Unfortunately, the application and game were rejected by AppStore because it is too easy for users. However, you can still utilize the fun and creative ideas for your New Year's party.
+Unfortunately, the application and game were rejected by the App Store because it is too easy for users. However, you can still utilize the fun and creative ideas for your New Year's party.
 The rules are simple: get a task and do your best to complete it. To get a new task just shake the handset. There are no winners or losers in this game, only a great Holiday Spirit!
 
-<img src="/assets/images/forfeit/1.png" width="200"/>
-<img src="/assets/images/forfeit/2.png" width="200"/>
-<img src="/assets/images/forfeit/3.png" width="200"/>
+<img src="/assets/images/forfeit/1.png" width="200" alt="Forfeits app task screen"/>
+<img src="/assets/images/forfeit/2.png" width="200" alt="Forfeits app task screen"/>
+<img src="/assets/images/forfeit/3.png" width="200" alt="Forfeits app task screen"/>
 
-Forteits is a fun and entertaining game that is perfect for livening up your New Year's Eve party! The game is easy to play - simply shake your phone to receive a new task and do your best to complete it. There are no winners or losers in this game, but plenty of festive spirit to go around!
+Forfeits is a fun and entertaining game that is perfect for livening up your New Year's Eve party! The game is easy to play - simply shake your phone to receive a new task and do your best to complete it. There are no winners or losers in this game, but plenty of festive spirit to go around!
 
 Inside the app, you will find a variety of exciting and creative tasks to complete, such as reciting tongue twisters, singing Christmas songs, drawing with your non-dominant hand, pantomiming fireworks, and more. There are also tasks that encourage group participation, such as organizing a circle dance around the Christmas tree or teaching simple dance moves to the other players.
 
 The game also includes tasks that promote kindness and positivity, such as complimenting each player and fulfilling the wish of the person sitting on your right. Plus, there are silly tasks like singing "Jingle Bells" like a cow or changing all the vowels in "Humpty Dumpty" to "O."
 
-And don't forget to stay in the festive spirit by shouting "HO, HO, HO!" like Santa every 5 minutes during the game. With Forteits, your New Year's Eve party is sure to be a memorable and entertaining experience for everyone involved!
+And don't forget to stay in the festive spirit by shouting "HO, HO, HO!" like Santa every 5 minutes during the game. With Forfeits, your New Year's Eve party is sure to be a memorable and entertaining experience for everyone involved!
 
 In the app you will find:
 
@@ -25,7 +25,7 @@ In the app you will find:
 * Climb a chair and recite a poem,
 * Sing a Christmas song,
 * Draw a Christmas tree with your left hand",
-* Next half an hour sing 'What a wonderfull world!' every 5 minutes,
+* Next half an hour sing 'What a wonderful world!' every 5 minutes,
 * Make a funny group photo,
 * Pantomime festive fireworks,
 * Walk around the room as if on skis,
@@ -46,7 +46,7 @@ In the app you will find:
 * Tell a joke or a fairy-tale,
 * Shout 'Happy New Year!' as loud as you can,
 * Clap your hands 12 times,
-* Rate this app in the AppStore",
+* Rate this app in the App Store",
 * Sing and dance 'Head, Shoulders, Knees and Toes',
 * Make up a Christmas riddle,
 * Stay and say as Santa 'HO, HO, HO!' every 5 minutes during the game

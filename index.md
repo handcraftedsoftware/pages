@@ -26,7 +26,7 @@ title: "Turning ideas into apps and books that inspire"
             {% for app in site.data.featured_ios_apps %}
             <div class="app">
                 <a class="app-icon" href="{{ app.link }}" title="{{ app.description }}">
-                    <img src="{{ app.image }}" alt="{{ app.name }}">
+                    <img src="{{ app.image }}" alt="{{ app.name }} app icon">
                 </a>
                 <div class="app-details">
                     <a class="app-name" href="{{ app.link }}" title="{{ app.description }}">
@@ -47,7 +47,7 @@ title: "Turning ideas into apps and books that inspire"
             {% for app in site.data.featured_books %}
             <div class="app">
                 <a class="book-cover" href="{{ app.link }}" title="{{ app.description }}">
-                    <img src="{{ app.image }}" alt="{{ app.name }}">
+                    <img src="{{ app.image }}" alt="{{ app.name }} book cover">
                 </a>
                 <div class="app-details">
                     <a class="app-name" href="{{ app.link }}" title="{{ app.description }}">
@@ -66,7 +66,7 @@ title: "Turning ideas into apps and books that inspire"
         <div class="about-content">
             <img
                 src="/assets/images/profile.png"
-                alt="Profile Picture"
+                alt="Natalia"
                 class="profile-pic"
             />
             <p>
