@@ -12,7 +12,6 @@ layout: default
     {% assign unclassified_apps = site.apps | where_exp: "app", "app.status == nil" | sort: "date" | reverse %}
 
     {% if active_apps.size > 0 %}
-    <h2>Current Apps</h2>
     <ul class="post-list">
         {% for app in active_apps %}
         <li>
