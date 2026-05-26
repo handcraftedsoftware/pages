@@ -12,8 +12,8 @@ title: "Small, focused apps and practical tools"
     <div class="hero page-section">
         <h1 class="section-header">Small, focused apps and practical tools</h1>
         <p>
-            Handcrafted by Natalia, an independent developer building simple
-            products for drawing, planning, organizing, and everyday creative work.
+            Handcrafted by me, Natalia Obukhova, an independent developer building
+            simple products for drawing, planning, organizing, and everyday creative work.
         </p>
         <div class="hero-actions">
             <a class="primary-action" href="#apps">Explore apps</a>
