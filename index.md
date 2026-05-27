@@ -10,24 +10,15 @@ title: "Small, focused apps and practical tools"
 
 <header>
     <div class="hero page-section">
-        <div class="hero-content">
-            <img
-                src="/assets/images/profile.png"
-                alt="Natalia Obukhova"
-                class="hero-profile-pic"
-            />
-            <div>
-                <h1 class="section-header">Small, focused apps and practical tools</h1>
-                <p>
-                    I'm Natalia Obukhova, an independent developer building small apps
-                    and practical tools for focused real-world tasks: drawing,
-                    organizing, planning a week, and making creative work easier.
-                </p>
-                <div class="hero-actions">
-                    <a class="primary-action" href="#apps">Explore apps</a>
-                    <a class="secondary-action" href="#books">See books and notes</a>
-                </div>
-            </div>
+        <h1 class="section-header">Small, focused apps and practical tools</h1>
+        <p>
+            I'm Natalia Obukhova, an independent developer building small apps
+            and practical tools for focused real-world tasks: drawing,
+            organizing, planning a week, and making creative work easier.
+        </p>
+        <div class="hero-actions">
+            <a class="primary-action" href="#apps">Explore apps</a>
+            <a class="secondary-action" href="#books">See books and notes</a>
         </div>
     </div>
 </header>
