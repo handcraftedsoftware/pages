@@ -10,14 +10,24 @@ title: "Small, focused apps and practical tools"
 
 <header>
     <div class="hero page-section">
-        <h1 class="section-header">Small, focused apps and practical tools</h1>
-        <p>
-            Handcrafted by Natalia Obukhova, an independent developer building simple
-            products for drawing, planning, organizing, and everyday creative work.
-        </p>
-        <div class="hero-actions">
-            <a class="primary-action" href="#apps">Explore apps</a>
-            <a class="secondary-action" href="#books">See books and notes</a>
+        <div class="hero-content">
+            <div>
+                <h1 class="section-header">Small, focused apps and practical tools</h1>
+                <p>
+                    I'm Natalia Obukhova, an independent developer building small apps
+                    and practical tools for focused real-world tasks: drawing,
+                    organizing, planning a week, and making creative work easier.
+                </p>
+                <div class="hero-actions">
+                    <a class="primary-action" href="#apps">Explore apps</a>
+                    <a class="secondary-action" href="#books">See books and notes</a>
+                </div>
+            </div>
+            <img
+                src="/assets/images/profile.png"
+                alt="Natalia Obukhova"
+                class="hero-profile-pic"
+            />
         </div>
     </div>
 </header>
@@ -91,16 +101,9 @@ title: "Small, focused apps and practical tools"
     <section id="about" class="page-section">
         <h2 class="section-header">About</h2>
         <div class="about-content">
-            <img
-                src="/assets/images/profile.png"
-                alt="Natalia"
-                class="profile-pic"
-            />
             <p>
-            I'm Natalia, an independent developer building small apps and practical
-            tools for focused real-world tasks. I like products that do one job
-            clearly: helping someone draw, organize, plan a week, or make a small
-            creative task easier.
+            I like products that do one job clearly: helping someone draw,
+            organize, plan a week, or make a small creative task easier.
             </p>
         </div>
     </section>

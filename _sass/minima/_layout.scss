@@ -315,8 +315,22 @@
     margin-bottom: 3rem;
 }
 
+.hero-content {
+    align-items: center;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) 9rem;
+}
+
 .hero p {
     max-width: 42rem;
+}
+
+.hero-profile-pic {
+    border-radius: 50%;
+    height: 9rem;
+    justify-self: end;
+    width: 9rem;
 }
 
 .section-intro {
@@ -501,6 +515,15 @@
 }
 
 @media (max-width: 768px) {
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-profile-pic {
+        grid-row: 1;
+        justify-self: start;
+    }
+
     .about-content {
         flex-direction: column;
     }
