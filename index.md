@@ -100,10 +100,12 @@ title: "Small, focused apps and practical tools"
 
     <section id="blog" class="page-section">
         <h2 class="section-header">Notes</h2>
-        <p class="section-intro">Notes on apps, product ideas, learning, and building small useful things.</p>
         <ul class="post-list latest-post-list">
-        {% assign latest_posts = site.posts | sort: "date" | reverse | slice: 0, 3 %}
+        {% assign latest_posts = site.posts | sort: "date" | reverse %}
+        {% assign visible_posts = 0 %}
         {% for post in latest_posts %}
+        {% unless post.categories contains "AI" %}
+        {% if visible_posts < 3 %}
         <li>
             <h3 class="post-title">
                 <a href="{{ post.url | relative_url }}">
@@ -120,6 +122,9 @@ title: "Small, focused apps and practical tools"
                 <a href="{{ post.url | relative_url }}">Continue reading…</a>
             </div>
         </li>
+        {% assign visible_posts = visible_posts | plus: 1 %}
+        {% endif %}
+        {% endunless %}
         {% endfor %}
         </ul>
     </section>
