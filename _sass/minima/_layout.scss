@@ -319,7 +319,7 @@
     align-items: center;
     display: grid;
     gap: 2rem;
-    grid-template-columns: minmax(0, 1fr) 9rem;
+    grid-template-columns: 9rem minmax(0, 1fr);
 }
 
 .hero p {
@@ -329,7 +329,7 @@
 .hero-profile-pic {
     border-radius: 50%;
     height: 9rem;
-    justify-self: end;
+    justify-self: start;
     width: 9rem;
 }
 
@@ -517,11 +517,6 @@
 @media (max-width: 768px) {
     .hero-content {
         grid-template-columns: 1fr;
-    }
-
-    .hero-profile-pic {
-        grid-row: 1;
-        justify-self: start;
     }
 
     .about-content {

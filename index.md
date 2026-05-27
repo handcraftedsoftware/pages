@@ -11,6 +11,11 @@ title: "Small, focused apps and practical tools"
 <header>
     <div class="hero page-section">
         <div class="hero-content">
+            <img
+                src="/assets/images/profile.png"
+                alt="Natalia Obukhova"
+                class="hero-profile-pic"
+            />
             <div>
                 <h1 class="section-header">Small, focused apps and practical tools</h1>
                 <p>
@@ -23,11 +28,6 @@ title: "Small, focused apps and practical tools"
                     <a class="secondary-action" href="#books">See books and notes</a>
                 </div>
             </div>
-            <img
-                src="/assets/images/profile.png"
-                alt="Natalia Obukhova"
-                class="hero-profile-pic"
-            />
         </div>
     </div>
 </header>
@@ -96,16 +96,6 @@ title: "Small, focused apps and practical tools"
                 </a>
             </li>
         </ul>
-    </section>
-
-    <section id="about" class="page-section">
-        <h2 class="section-header">About</h2>
-        <div class="about-content">
-            <p>
-            I like products that do one job clearly: helping someone draw,
-            organize, plan a week, or make a small creative task easier.
-            </p>
-        </div>
     </section>
 
     <section id="blog" class="page-section">
