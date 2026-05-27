@@ -68,6 +68,26 @@ title: "Small, focused apps and practical tools"
       </div>
     </section>
 
+    <section id="building-with-ai" class="page-section ai-notes-section">
+        <h2 class="section-header">Building with AI</h2>
+        <p class="section-intro">
+            I use AI agents to help plan, review, and improve small products,
+            with clear roles, privacy boundaries, and evidence-based decisions.
+        </p>
+        <ul class="ai-notes-list">
+            <li>
+                <a href="/posts/ai-agents-roles-boundaries-review-loops">
+                    Why AI Agents Need Roles, Boundaries, and Review Loops
+                </a>
+            </li>
+            <li>
+                <a href="/posts/ai-assisted-lightbox-landing-page-case-study">
+                    How I Used an AI-Assisted Workflow to Improve One App Landing Page
+                </a>
+            </li>
+        </ul>
+    </section>
+
     <section id="about" class="page-section">
         <h2 class="section-header">About</h2>
         <div class="about-content">

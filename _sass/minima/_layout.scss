@@ -470,6 +470,19 @@
     }
 }
 
+.ai-notes-section {
+    max-width: 42rem;
+}
+
+.ai-notes-list {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+        margin-bottom: 0.5rem;
+    }
+}
+
 .about-content {
     display: flex;
     align-items: flex-start;
