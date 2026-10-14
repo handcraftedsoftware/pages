@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="asktarot-page">
+    <div class="tarot-sky" aria-hidden="true">
+      <span>✦</span><span>✧</span><span>✦</span><span>✦</span><span>✧</span>
+      <span>✦</span><span>✧</span><span>✦</span><span>✧</span><span>✦</span>
+    </div>
+    <a class="tarot-skip" href="#main">Skip to content</a>
+    <header class="tarot-header tarot-container">
+      <a class="tarot-brand" href="{{ page.url | relative_url }}" aria-label="AskTarot home"><span aria-hidden="true">✧</span> AskTarot</a>
+    </header>
+    <main id="main">{{ content }}</main>
+    <footer class="tarot-footer tarot-container">
+      <a href="{{ '/' | relative_url }}">Made by handcrafted.software <span aria-hidden="true">↗</span></a>
+      <div><a href="{{ '/apps/' | relative_url }}">All apps</a><a href="{{ '/contacts.html' | relative_url }}">Contact</a></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{% if page.app_store_url and page.app_store_url != empty %}
+<a class="tarot-download" href="{{ page.app_store_url | escape }}">
+  <img src="{{ '/assets/images/download-on-the-app-store-en.svg' | relative_url }}" width="180" height="60" alt="Download on the App Store">
+</a>
+{% else %}
+<p class="tarot-store-pending">Coming soon to the App Store</p>
+{% endif %}
