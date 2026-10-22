@@ -20,5 +20,10 @@
 
 - name: "Advent Adventure"
   description: "Open a new December idea each day and turn the holiday countdown into a small adventure."
-  image: "/assets/images/app-icons/advent-adventure.jpg"
+  image: "/assets/advent-adventure/assets/app-icon.png"
   link: "/apps/advent-adventure"
+
+- name: "AskTarot"
+  description: "Explore tarot readings, discover card symbols, and learn the 22 Major Arcana."
+  image: "/assets/images/app-icons/asktarot.jpg"
+  link: "/apps/asktarot"
