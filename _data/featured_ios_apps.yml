@@ -27,3 +27,8 @@
   description: "Explore tarot readings, discover card symbols, and learn the 22 Major Arcana."
   image: "/assets/images/app-icons/asktarot.jpg"
   link: "/apps/asktarot"
+
+- name: "Fairytyping"
+  description: "An illustrated typing adventure for curious kids. Try the first lesson in your browser."
+  image: "/assets/fairytyping/assets/icon.webp"
+  link: "/apps/fairytyping"
