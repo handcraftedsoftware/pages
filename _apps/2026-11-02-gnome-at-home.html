@@ -1,0 +1,79 @@
+---
+layout: null
+title: "Gnome at Home — A little home. A little magic."
+catalog_title: "Gnome at Home"
+description: "A little home. A little magic. Catch a gnome, decorate a felt cottage, and find your cozy corner of the world. Coming soon to iPhone and iPad."
+summary: "A cozy little game with felt cottages, four seasons, and little treasures. Coming soon to iPhone and iPad."
+image: "/assets/gnome-at-home/assets/icon.webp"
+date: 2026-11-02
+status: active
+hide_date: true
+permalink: /apps/gnome-at-home
+canonical_url: "https://handcrafted.software/apps/gnome-at-home"
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d36">
+  {% seo title=false %}
+  <title>Gnome at Home — A little home. A little magic.</title>
+  <link rel="icon" type="image/webp" href="{{ '/assets/gnome-at-home/assets/icon.webp' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/gnome-at-home/styles.css' | relative_url }}">
+  <script src="{{ '/assets/gnome-at-home/assets/windows.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/gnome-at-home/script.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="header-bar"><header class="header wrap">
+    <a class="brand" href="#home" aria-label="Gnome at Home — home"><img src="{{ '/assets/gnome-at-home/assets/icon.webp' | relative_url }}" width="45" height="45" alt=""><span>gnome <i>at</i> home<span class="brand-sub">A LITTLE WORLD OF WONDER</span></span></a>
+    <nav aria-label="Main navigation"><a href="#little-world">Explore the world</a><button class="coming-button header-cta" data-coming>Coming soon <span aria-hidden="true">↗</span></button></nav>
+  </header></div>
+  <main id="home">
+    <div class="night-section"><div class="night-glow" aria-hidden="true"></div><section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> A COZY LITTLE GAME FOR iPHONE & iPAD</p>
+        <h1 id="hero-title">A little home.<br>A little <em>magic.</em></h1>
+        <p class="intro">Follow the glow. Find a little friend.<br>Make a felt home a little more your own.</p>
+        <button class="store-button stitched" data-coming><svg viewBox="0 0 24 28" aria-hidden="true"><path d="M18.8 14.7c0-3 2.5-4.5 2.6-4.6-1.4-2.1-3.7-2.4-4.5-2.4-1.9-.2-3.7 1.1-4.7 1.1-1 0-2.5-1.1-4.1-1.1-2.1 0-4 1.2-5.1 3-2.2 3.8-.6 9.5 1.5 12.5 1 1.5 2.2 3 3.8 2.9 1.5 0 2.1-.9 4-.9s2.5.9 4.1.9c1.7 0 2.7-1.5 3.7-3 1.2-1.7 1.7-3.3 1.7-3.4-.1 0-3-1.2-3-5zm-3-9c.8-1 1.5-2.4 1.3-3.8-1.2 0-2.7.8-3.6 1.8-.8.8-1.5 2.3-1.3 3.6 1.4.1 2.8-.7 3.6-1.6z"/></svg><span><small>Coming soon to</small>App Store</span><span class="button-arrow" aria-hidden="true">↗</span></button>
+        <p class="release-note">A little world is getting ready for you.</p>
+        <a class="try-link" href="#preview">Step inside & play <span aria-hidden="true">↗</span></a>
+        <div class="hero-sprig" aria-hidden="true">✳ <span>Small moments. A softer world.</span></div>
+      </div>
+      <div class="preview" id="preview">
+        <div class="hanging-star star-one" aria-hidden="true"><img src="{{ '/assets/gnome-at-home/assets/star.webp' | relative_url }}" alt=""></div>
+        <div class="hanging-star star-two" aria-hidden="true"><img src="{{ '/assets/gnome-at-home/assets/star.webp' | relative_url }}" alt=""></div>
+        <div class="hand-note" aria-hidden="true">a little magic<br>at your fingertips <span>⤵</span></div>
+        <div class="scene-shell">
+          <div class="scene" role="group" aria-label="Interactive cottage preview. Tap the glowing window.">
+            <div class="world"><img class="house-art" src="{{ '/assets/gnome-at-home/assets/cottage-winter.webp' | relative_url }}" width="836" height="470" alt="A six-window felt cottage in a snowy forest"><div id="windows"></div><img class="reward-wreath" src="{{ '/assets/gnome-at-home/assets/wreath.webp' | relative_url }}" alt="" hidden></div>
+            <div class="scene-top"><span class="preview-badge"><span></span> A TINY WORLD, ALIVE</span><button class="motion-toggle" aria-label="Pause preview" aria-pressed="false"><span aria-hidden="true">Ⅱ</span></button></div>
+            <span class="catch-counter" aria-label="Gnomes found: 0"><img src="{{ '/assets/gnome-at-home/assets/star.webp' | relative_url }}" alt=""><span id="count">0</span></span>
+            <div class="snow" aria-hidden="true"></div>
+            <p class="scene-hint" id="scene-hint" role="status">Psst… tap the glowing window</p>
+          </div>
+        </div>
+        <button class="sound-toggle" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 8l11-2"/><ellipse cx="5.5" cy="18.5" rx="3.5" ry="2.5"/><ellipse cx="16.5" cy="16.5" rx="3.5" ry="2.5"/></svg><span>Sound on. World off.</span><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span></button>
+        <div class="season-picker" role="group" aria-label="Choose a season"><button data-season="0" aria-pressed="true"><span aria-hidden="true">❄</span> Winter</button><button data-season="1" aria-pressed="false"><span aria-hidden="true">❀</span> Spring</button><button data-season="2" aria-pressed="false"><span aria-hidden="true">☼</span> Summer</button><button data-season="3" aria-pressed="false"><span aria-hidden="true">❧</span> Autumn</button></div>
+        <p class="preview-caption">Turn the season. Keep the feeling.</p>
+        <noscript><p class="preview-caption">Enable JavaScript to change seasons and play.</p></noscript>
+      </div>
+    </section>
+    </div><div class="day-section"><section class="little-world wrap" id="little-world" aria-labelledby="world-title">
+      <div class="section-heading"><div><p class="eyebrow">STITCHED FROM LITTLE JOYS</p><h2 id="world-title">Somewhere you belong.</h2></div><p>Find your gnome. Collect little treasures.<br>Turn a tiny house into your happy place.</p></div>
+      <div class="home-gallery">
+        <figure><div class="home-picture"><img src="{{ '/assets/gnome-at-home/assets/mushroom.webp' | relative_url }}" width="836" height="470" loading="lazy" alt="A red mushroom cottage among spring blossoms"><span class="picture-note">For daydreams & rainy days</span></div></figure>
+        <figure><div class="home-picture"><img src="{{ '/assets/gnome-at-home/assets/pumpkin.webp' | relative_url }}" width="836" height="470" loading="lazy" alt="A pumpkin cottage in an autumn felt forest"><span class="picture-note">For golden-hour daydreams</span></div></figure>
+        <figure><div class="home-picture"><img src="{{ '/assets/gnome-at-home/assets/stump.webp' | relative_url }}" width="836" height="470" loading="lazy" alt="A tree-stump cottage among summer flowers"><span class="picture-note">For your inner wanderer</span></div></figure>
+      </div>
+      <div class="details"><span><b>8</b> imaginative little homes</span><span><b>4</b> beautiful seasons</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V5l11-2v13M9 8l11-2"/><ellipse cx="5.5" cy="18.5" rx="3.5" ry="2.5"/><ellipse cx="16.5" cy="16.5" rx="3.5" ry="2.5"/></svg> a soundtrack for every season</span></div>
+    </section>
+    <section class="closing wrap" aria-labelledby="closing-title"><div class="closing-inner"><img class="closing-star" src="{{ '/assets/gnome-at-home/assets/star.webp' | relative_url }}" alt="" aria-hidden="true"><img class="closing-gnome" src="{{ '/assets/gnome-at-home/assets/gnome.webp' | relative_url }}" width="110" height="150" alt="A felt gnome in a red hat"><div><p class="eyebrow">SOMETHING SOFT IS ON ITS WAY</p><h2 id="closing-title">Take a little wonder with you.</h2><p>For pockets, quiet corners, and just-one-more moments.</p></div><button class="coming-button stitched" data-coming>Coming to the App Store <span aria-hidden="true">↗</span></button></div></section>
+    </div>
+  </main>
+  <div class="footer-bar"><footer class="footer wrap"><a href="#home">gnome <i>at</i> home</a><a class="maker-link" href="https://handcrafted.software">Made by handcrafted.software <span aria-hidden="true">↗</span></a><span>© <span id="year">2026</span> Gnome at Home</span></footer></div>
+  <dialog id="coming-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><button class="dialog-close" aria-label="Close">×</button><img src="{{ '/assets/gnome-at-home/assets/icon.webp' | relative_url }}" width="76" height="76" alt=""><p class="eyebrow">ALMOST HOME</p><h2 id="dialog-title">Good things take a little time.</h2><p id="dialog-description">Gnome at Home is not on the App Store yet.<br>Until then, there’s a little cottage waiting for you here.</p><button class="dialog-return coming-button stitched">Back to the little cottage <span aria-hidden="true">↗</span></button></dialog>
+</body>
+</html>

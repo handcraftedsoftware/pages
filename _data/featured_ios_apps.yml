@@ -32,3 +32,8 @@
   description: "An illustrated typing adventure for curious kids. Try the first lesson in your browser."
   image: "/assets/fairytyping/assets/icon.webp"
   link: "/apps/fairytyping"
+
+- name: "Gnome at Home"
+  description: "A cozy little game with felt cottages, four seasons, and little treasures. Coming soon."
+  image: "/assets/gnome-at-home/assets/icon.webp"
+  link: "/apps/gnome-at-home"
