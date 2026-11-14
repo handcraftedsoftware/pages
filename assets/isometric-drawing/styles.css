@@ -3,3 +3,9 @@
 @media(max-width:380px){.hero-actions{gap:12px}.hero-actions .text-link{font-size:10px}.hero-actions .button{padding:13px 12px}.button svg{width:18px}.hero-art{height:390px}.shape-float{top:59px}.palette{left:14%;bottom:15px}.art-note{bottom:65px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.penrose{will-change:auto}}
 
+.app-demo{background:var(--paper);color:var(--ink);padding:80px 0}
+.demo-video{max-width:960px;margin:40px auto 0;aspect-ratio:16/9;overflow:hidden;border:1px solid #c6bdce;border-radius:4px;background:var(--ink)}
+.demo-video iframe{display:block;width:100%;height:100%;border:0}
+.demo-caption{text-align:center;margin:24px 0 0;color:#716477}
+@media(max-width:760px){.app-demo{padding:55px 0}.demo-video{margin-top:28px}}
+
