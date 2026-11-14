@@ -7,7 +7,6 @@ const scene = document.querySelector('.scene');
 const windowLayer = document.querySelector('#windows');
 const hint = document.querySelector('#scene-hint');
 const pauseButton = document.querySelector('.motion-toggle');
-const dialog = document.querySelector('#coming-dialog');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const soundtrack = new Audio();
 soundtrack.hidden = true;
@@ -19,7 +18,7 @@ const soundButton = document.querySelector('.sound-toggle');
 let soundEnabled = false, audioSeason = -1, audioRequest = 0;
 let season = 0, active = 1, catches = 0, caught = -1, paused = false, timer;
 let visible = true;
-function canRun() { return visible && !paused && !document.hidden && !dialog.open; }
+function canRun() { return visible && !paused && !document.hidden; }
 function queueNext(delay = 3200) {
   clearTimeout(timer);
   if (!canRun()) return;
@@ -96,18 +95,6 @@ for (let i = 0; i < 14; i++) {
   flake.style.cssText = `--x:${(i * 37) % 100}%;--duration:${7+i%5}s;--delay:-${i*.83}s`;
   document.querySelector('.snow').append(flake);
 }
-document.querySelectorAll('[data-coming]').forEach(button => button.addEventListener('click', () => { dialog.showModal(); clearTimeout(timer); syncAudio(); }));
-document.querySelector('.dialog-close').addEventListener('click', () => dialog.close());
-document.querySelector('.dialog-return').addEventListener('click', () => {
-  dialog.close();
-  document.querySelector('#preview').scrollIntoView({behavior: reducedMotion.matches ? 'instant' : 'smooth', block:'center'});
-  windowLayer.querySelectorAll('button')[active].focus({preventScroll:true});
-});
-dialog.addEventListener('click', event => {
-  const box = dialog.getBoundingClientRect();
-  if (event.target === dialog && (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom)) dialog.close();
-});
-dialog.addEventListener('close', () => { queueNext(caught >= 0 ? 1400 : 3200); syncAudio(); });
 document.addEventListener('visibilitychange', () => { queueNext(caught >= 0 ? 1400 : 3200); syncAudio(); });
 reducedMotion.addEventListener('change', () => queueNext());
 new IntersectionObserver(entries => { visible = entries[0].isIntersecting; queueNext(caught >= 0 ? 1400 : 3200); }, {threshold:.15}).observe(scene);
@@ -116,7 +103,7 @@ async function syncAudio() {
   soundButton.setAttribute('aria-pressed', String(soundEnabled));
   soundButton.setAttribute('aria-label', soundEnabled ? 'Turn seasonal music off' : 'Turn seasonal music on');
   soundButton.querySelector('span').textContent = soundEnabled ? 'A soundtrack for small wonders' : 'Sound on. World off.';
-  if (!soundEnabled || paused || document.hidden || dialog.open) { soundtrack.pause(); return; }
+  if (!soundEnabled || paused || document.hidden) { soundtrack.pause(); return; }
   if (audioSeason !== season) {
     soundtrack.src = `${assetBase}audio/${seasons[season]}.m4a`;
     audioSeason = season;
