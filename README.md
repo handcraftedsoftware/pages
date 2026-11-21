@@ -18,6 +18,10 @@ mise exec ruby@3.3.0 -- bundle exec jekyll serve --host 127.0.0.1 --port 4000 --
 
 Open `http://127.0.0.1:4000/`.
 
+The standalone Senior AI Babysitter game is at `/senior-ai-babysitter/`.
+Its HTML, JavaScript, CSS, and illustration live in `senior-ai-babysitter/`
+and are copied directly into the Jekyll build.
+
 ### Build check
 
 ```sh
